@@ -89,3 +89,52 @@
 
 
 
+
+// import React, { useState } from 'react'
+
+// const State = () => {
+//     const [name ,setName] = useState("Danish")
+
+//     const changeName = () => {
+//         setName((previous) => {
+//             if(previous === "Danish"){
+//                 return "kukku"
+                
+//             }else{
+//                 return "Danish"
+//             }
+//         })
+//     }
+//   return (
+//     <div>
+//       <h1>{name}</h1>
+//       <button onClick={changeName}>change name</button>
+//     </div>
+//   )
+// }
+// export default State
+
+
+
+// import React, { useState } from 'react'
+
+// const State = () => {
+//     const [btnName , setBtnName] = useState("Unsubscribe")
+
+//     const change = () =>{
+//         setBtnName ((previous) => {
+//             if(previous === "Unsubscribe"){
+//                 return "Subscribe"
+//             }else{
+//                 return "Unsubscribe"
+//             }
+//         })
+//     } 
+//   return (
+//     <div>
+//       <button onClick={change}>{btnName}</button>
+//     </div>
+//   )
+// }
+
+// export default State
