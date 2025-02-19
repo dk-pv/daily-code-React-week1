@@ -1,0 +1,12 @@
+body{
+  font-family: sans-serif;
+  margin-left: 200px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form label{
+  margin-right:10px ;
+}
