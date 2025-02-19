@@ -21,7 +21,7 @@
 //       backgroundColor: "red",
 //     });
 //   };
-   
+
 //   render() {
 
 //     setInterval(() => {
@@ -48,27 +48,44 @@
 //   }
 // }
 // export default State;
+////////////////////////////////////////////////////////////////////////
+
+
+// tonggle (click change state and another click to get previous state)
+
+// import React from "react";
+
+// class State extends React.Component {
+//   constructor() {
+//     super();
+//     this.state = {
+//       buttonText: "unsubscribe",
+//     };
+//   }
+
+//   change = () => {
+//     this.setState((previous) => {
+//       if (previous.buttonText === "unsubscribe") {
+//         return {
+//           buttonText: "subscribe",
+//         };
+//       } else {
+//         return {
+//           buttonText: "unsubscribe",
+//         };
+//       }
+//     });
+//   };
+
+//   render() {
+//     return (
+//       <div>
+//         <button onClick={this.change}>{this.state.buttonText}</button>
+//       </div>
+//     );
+//   }
+// }
+// export default State;
 
 
 
-import React from 'react'
-
-class State extends React.Component{
-
-    constructor(){
-        super()
-        this.state = {
-            buttonText : ""
-        }
-    }
-
-    render(){
-        return(
-            <div>
-                <button></button>
-            </div>
-        )
-    }
-}
-
-export default State
