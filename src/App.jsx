@@ -660,13 +660,16 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 import React from 'react'
-import State from './Components/State'
-
+// import State from './Components/State'
+// import DidMount from './components/DidMount'
+import DidUpdate from './Components/DidUpdate';
 
 const App = () => {
   return (
     <div>
-      <State />
+      {/* <State /> */}
+      {/* <DidMount /> */}
+      <DidUpdate/>
     </div>
   )
 }

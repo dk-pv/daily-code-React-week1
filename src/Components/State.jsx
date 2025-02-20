@@ -133,37 +133,41 @@
 
 // export default State
 
-import React, { useState } from 'react'
 
-const State = () => {
+/////////////////////////////////////////////////////////////////////////
 
-    const[counter , setCounter] = useState(0)
 
-    const increment1 = () =>{
-        setCounter(counter + 1)
-    }
-    const decrement1 = () =>{
-        setCounter(counter - 1)
-    }
-    const increment2 = () =>{
-        setCounter(counter + 2)
-    }
-    const decrement2 = () =>{
-        setCounter(counter - 2)
-    }
-    const reset = () =>{
-        setCounter(0)
-    }
-  return (
-    <div>
-      <h1>count : {counter}</h1>
-      <button onClick={increment1}> + 1 </button>
-      <button onClick={decrement1}> - 1 </button>
-      <button onClick={increment2}> + 2 </button>
-      <button onClick={decrement2}> - 2 </button>
-      <button onClick={reset}>Reset</button>
-    </div>
-  )
-}
+// import React, { useState } from 'react'
 
-export default State
+// const State = () => {
+
+//     const[counter , setCounter] = useState(0)
+
+//     const increment1 = () =>{
+//         setCounter(counter + 1)
+//     }
+//     const decrement1 = () =>{
+//         setCounter(counter - 1)
+//     }
+//     const increment2 = () =>{
+//         setCounter(counter + 2)
+//     }
+//     const decrement2 = () =>{
+//         setCounter(counter - 2)
+//     }
+//     const reset = () =>{
+//         setCounter(0)
+//     }
+//   return (
+//     <div>
+//       <h1>count : {counter}</h1>
+//       <button onClick={increment1}> + 1 </button>
+//       <button onClick={decrement1}> - 1 </button>
+//       <button onClick={increment2}> + 2 </button>
+//       <button onClick={decrement2}> - 2 </button>
+//       <button onClick={reset}>Reset</button>
+//     </div>
+//   )
+// }
+
+// export default State
