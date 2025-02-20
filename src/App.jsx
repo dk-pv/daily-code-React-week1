@@ -1,6 +1,3 @@
-
-
-
 // const dk = () =>{
 //   const name = "smith"
 //   const a = 50;
@@ -21,12 +18,7 @@
 // };
 //export default dk;
 
-
-
-
 /////////////////////////////////////////////
-
-
 
 // function App() {
 //   return (
@@ -80,12 +72,10 @@
 
 ////////////////////////////////////////////////////////////
 
-                  
-                      // access components
-                 // 2 types (functional & class) 
+// access components
+// 2 types (functional & class)
 
-
-    //class component
+//class component
 
 // import React, { Component } from "react";
 // class Welcome extends Component {
@@ -95,10 +85,7 @@
 // }
 // export default Welcome;
 
-
-
-
-    // functional components 
+// functional components
 
 // example 1
 
@@ -111,9 +98,6 @@
 //   )
 // }
 // export default App;
-
-
-
 
 //example 2
 
@@ -135,8 +119,6 @@
 // };
 // export default App;
 
-
-
 // example 3
 
 // import React from 'react';
@@ -149,9 +131,6 @@
 // }
 // export default App
 
-
-
-
 // import React from 'react';
 // import Style from './Components/Style';
 
@@ -163,9 +142,6 @@
 //   );
 // };
 // export default App;
-
-
-
 
 // import React from 'react'
 // import Home from './Components/Home'
@@ -180,7 +156,7 @@
 
 ////////////////////////////////////////////
 
-          //bootstrap
+//bootstrap
 
 // import React from 'react'
 // import Bootstrap from './Components/bootstrap'
@@ -189,18 +165,16 @@
 // const App = () => {
 //   return (
 //     <div>
-//       <Bootstrap/>  
+//       <Bootstrap/>
 //     </div>
 //   )
 // }
 
 // export default App
 
-
-
 //////////////////////////////////////////////
 
-                      // event handling
+// event handling
 
 // import React from 'react'
 // import EventHandling from './Components/EventHandling'
@@ -214,10 +188,9 @@
 // }
 // export default App
 
-
 ///////////////////////////////////////////////
 
-                      // HOOKS - usestate
+// HOOKS - usestate
 
 // import React from 'react'
 // import HooksUseState from './Components/HooksUseState'
@@ -232,10 +205,9 @@
 
 // export default App
 
-
 ///////////////////////////////////////////////
 
-                // props
+// props
 
 // import React from 'react'
 // import Props from './Components/Props'
@@ -253,7 +225,6 @@
 //   )
 // }
 // export default App
-
 
 // another way props (if you want add more components use like this )
 
@@ -274,17 +245,15 @@
 //         <Container>
 //         <Props states = {states}/>
 //         </Container>
-    
+
 //     </div>
 //   )
 // }
 // export default App
 
-
 //////////////////////////////////////////////////////////////
 
-
-                        // Conditional rendering
+// Conditional rendering
 
 // use if else.
 
@@ -308,11 +277,7 @@
 // }
 // export default conditionalRendering;
 
-
-
-
 // use ternory oprator
-
 
 // import React from 'react'
 
@@ -321,12 +286,9 @@
 //   return <div>
 //     {Number>0?<h1>positive</h1>:Number<0?<h1>negative</h1>:<h1>zero</h1>}
 //   </div>
-  
+
 // }
 // export default App
-
-
-
 
 // use cpmponet (repalce <h1>)
 
@@ -343,12 +305,9 @@
 
 // export default App
 
-
 ////////////////////////////////////////////
 
-
-                // List
-
+// List
 
 // import React from 'react'
 // import ListRendering from './Components/ListRendering'
@@ -362,10 +321,9 @@
 // }
 // export default App
 
-
 /////////////////////////////////////////////////////////////////
 
-                // key and list
+// key and list
 
 // import React from 'react'
 // import Keys from './Components/keys'
@@ -378,15 +336,13 @@
 // }
 // export default App
 
-
 ///////////////////////////////////////////////////////////////////
 
-                //exercise/ task1 (online store product list )
+//exercise/ task1 (online store product list )
 
 // import React from 'react'
 // import "bootstrap/dist/css/bootstrap.min.css"
 // import Products from './Components/exersice-task1/Products'
-
 
 // const App = () => {
 //   return (
@@ -398,11 +354,9 @@
 
 // export default App
 
-
 ///////////////////////////////////////////////////
 
-
-                      // use effect hook
+// use effect hook
 
 // import React from 'react'
 // import "bootstrap/dist/css/bootstrap.min.css"
@@ -418,12 +372,9 @@
 
 // export default App
 
-
 /////////////////////////////////////////////////////////////////////
 
-
-                      // useref hooks
-
+// useref hooks
 
 // import React from 'react'
 // import UseRefHook from './Components/UseRefHook'
@@ -440,8 +391,7 @@
 
 ////////////////////////////////////////////////////
 
-
-                  //fetching data
+//fetching data
 
 // import React from 'react'
 // import FetchingEvents from './Components/FetchingEvents'
@@ -457,11 +407,9 @@
 
 // export default App
 
-
 ///////////////////////////////////////////////
 
-
-                    // Form Validation
+// Form Validation
 
 // import React from 'react'
 // import FormValidation from './Components/FormValidation'
@@ -478,10 +426,11 @@
 
 ///////////////////////////////////////////////////////////
 
+//ruf
 
-                        //ruf
-
-{/* EVENT HANDLING */}
+{
+  /* EVENT HANDLING */
+}
 
 // import React from 'react'
 // const Reff = () => {
@@ -495,8 +444,6 @@
 //   )
 // }
 // export default Reff;
-
-
 
 // import {Container} from 'react-bootstrap'
 // import "bootstrap/dist/css/bootstrap.min.css"
@@ -513,13 +460,11 @@
 //         <Reff  contry = {"RUSSIA"}  continent = {"EUROPE"}/>
 //         <Reff  contry = {"GERMANY"} continent = {"EUROPE"}/>
 //         <Reff  contry = {"FRANCE"} continent = {"EUROPE"}/>
-//       </Container>  
+//       </Container>
 //     </div>
 //   )
 // }
 // export default App;
-
-
 
 // const App = () => {
 //   let number = -10;
@@ -532,15 +477,13 @@
 
 // export default App
 
-
-
 // import React, { useState ,useEffect } from 'react'
 // const Effect = () => {
 //     const [counter , setCounter] = useState(0)
-    
+
 //     useEffect(() =>{
 //       {console.log("side effects")}
-//     })  
+//     })
 //   return (
 //     <div>
 //       <h1>{counter}</h1>
@@ -549,9 +492,6 @@
 //   )
 // }
 // export default Effect;
-
-
-
 
 // import React from 'react'
 // import Sample from './Components/sample';
@@ -564,12 +504,9 @@
 // }
 // export default App;
 
-
 ///////////////////////////////////////////////////////////
 
-
-
-                          // UseReduce
+// UseReduce
 
 // import React from 'react'
 
@@ -587,9 +524,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-                    //class componenet
-
+//class componenet
 
 // import React,{Component} from "react";
 // import ClassComponenet from "./Components/ClassComponenet";
@@ -620,9 +555,6 @@
 // }
 // export default App;
 
-
-
-
 // import React,{Component} from "react";
 // // import ClassCounter from "./Components/ClassCounter.JSX";
 // import ClassForms from "./ClassForms";
@@ -639,9 +571,7 @@
 // }
 // export default App;
 
-
 /////////////////////////////////////////////////////////////////
-
 
 // import React from 'react'
 // import UseContextA from './Components/UseContextA'
@@ -659,21 +589,49 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-import React from 'react'
-// import State from './Components/State'
-// import DidMount from './components/DidMount'
-import DidUpdate from './Components/DidUpdate';
+// import React from 'react'
+// // import State from './Components/State'
+// // import DidMount from './components/DidMount'
+// import DidUpdate from './Components/DidUpdate';
 
-const App = () => {
-  return (
-    <div>
-      {/* <State /> */}
-      {/* <DidMount /> */}
-      <DidUpdate/>
-    </div>
-  )
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <State /> */}
+//       {/* <DidMount /> */}
+//       <DidUpdate/>
+//     </div>
+//   )
+// }
+
+// export default App;
+
+/////////////////////////////////////////////////////////////////////////////
+
+//component will Unmount
+
+import React from "react";
+import UnMount from "./components/UnMount";
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      show: true,
+    };
+  }
+  deleting = () => {
+    this.setState({ show: false });
+  };
+  render() {
+    return (
+      <>
+        <div>
+          {this.state.show ? <UnMount /> : ""}
+          <button onClick={this.deleting}>click</button>
+        </div>
+      </>
+    );
+  }
 }
 
-export default App
-
-                        
+export default App;
